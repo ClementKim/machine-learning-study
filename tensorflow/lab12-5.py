@@ -37,7 +37,7 @@ lr = 0.01
 iterations = 500
 
 # Open, High, Low, Volume, Close
-xy = np.loadtxt('../data-02-stock_daily.csv', delimiter=',')
+xy = np.loadtxt('data-02-stock_daily.csv', delimiter=',')
 xy = xy[::-1]  # reverse order (chronically ordered)
 
 # train/test split
