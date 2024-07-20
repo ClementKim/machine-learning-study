@@ -37,7 +37,7 @@ lr = 0.01
 iterations = 500
 
 # Open, High, Low, Volume, Close
-xy = np.loadtxt('data-02-stock_daily.csv', delimiter=',')
+xy = np.loadtxt('../data-02-stock_daily.csv', delimiter=',')
 xy = xy[::-1]  # reverse order (chronically ordered)
 
 # train/test split
@@ -80,8 +80,8 @@ tf.model.fit(trainX, trainY, epochs=iterations)
 test_predict = tf.model.predict(testX)
 
 # Plot predictions
-plt.plot(testY, 'r')
-plt.plot(test_predict, 'g')
+plt.plot(testY)
+plt.plot(test_predict)
 plt.xlabel("Time Period")
 plt.ylabel("Stock Price")
 plt.show()
