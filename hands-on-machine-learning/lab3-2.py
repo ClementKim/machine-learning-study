@@ -15,6 +15,6 @@ X_train, X_test, y_train, y_test = X[:60000], X[60000:], y[:60000], y[60000:]
 y_train_5 = (y_train == '5')
 y_test_5 = (y_test == '5')
 
-sgd_cdf = SGDClassifier(random_state = 42)
-sgd_cdf.fit(X_train, y_train_5)
-print(sgd_cdf.predict([some_digit]))
+sgd_clf = SGDClassifier(random_state = 42)
+sgd_clf.fit(X_train, y_train_5)
+print(sgd_clf.predict([some_digit]))
