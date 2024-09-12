@@ -1,13 +1,13 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-from sklearn.linear_model import Ridge, Lasso, ElasticNet
-from sklearn.linear_model import LinearRegression
-from sklearn.preprocessing import PolynomialFeatures
-from sklearn.pipeline import make_pipeline
-from sklearn.preprocessing import StandardScaler
-from sklearn.linear_model import SGDRegressor
 from copy import deepcopy
+
+from sklearn.linear_model import Ridge, Lasso, ElasticNet
+from sklearn.linear_model import LinearRegression, SGDRegressor
+
+from sklearn.preprocessing import PolynomialFeatures, StandardScaler
+from sklearn.pipeline import make_pipeline
 from sklearn.metrics import mean_squared_error
 
 np.random.seed(42)
