@@ -37,3 +37,5 @@ print(lin_reg.predict(X_new))
 theta_best_svd, residuals, rank, s = np.linalg.lstsq(X_b, y, rcond=1e-6)
 print(theta_best_svd)
 
+# 유사역행렬
+print(np.linalg.pinv(X_b) @ y)
