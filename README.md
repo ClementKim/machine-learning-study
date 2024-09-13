@@ -2,6 +2,8 @@
 
 Author: 정치외교학과 201922027 김준성
 
+To use venv
+
 ```sh
 python3 -m venv environment_name
 
@@ -16,6 +18,7 @@ python3 file_name
 deactivate
 ```
 
+About directories
 ```bash
 ├── deep-learning-zero-to-all
 │   ├── data-01-test-score.csv
