@@ -2,6 +2,7 @@
 
 Member: 김준성, 구세은, 한태호
 
+
 # 대신러닝이란?
 
 대신러닝은 머신러닝/딥러닝에 관심있는 아주대학교 학생이 방학 기간에 모여 자율적으로 운영하는 스터디입니다.
@@ -30,7 +31,6 @@ Member: 김준성, 구세은, 한태호
 9. 비지도 학습 (K-means와 DBSCAN 중심)
 
 
-
 # To run files with venv
 
 ```sh
@@ -46,6 +46,7 @@ python3 file_name
 
 deactivate
 ```
+
 
 # About directories
 
@@ -155,7 +156,9 @@ deactivate
 │       └── prac3-3.py
 ```
 
+
 # References
 
 홍콩과기대 김성훈 교수님 - '모두를 위한 딥러닝'
+
 오렐리앙 제롱 - 'Hands on Machine Learning with Scikit-Learn, Keras & TensorFlow'
