@@ -1,10 +1,10 @@
-# 아주대학교 소프트웨어학과 대신러닝 스터디 기초반
+## 아주대학교 소프트웨어학과 대신러닝 스터디 기초반
 
 Member: 김준성, 구세은, 한태호
 
 
 
-
+---
 ### 대신러닝이란?
 
 대신러닝은 머신러닝/딥러닝에 관심있는 아주대학교 학생이 방학 기간에 모여 자율적으로 운영하는 스터디입니다.
@@ -13,7 +13,7 @@ Member: 김준성, 구세은, 한태호
 
 
 
-
+---
 ### 대신러닝 기초반 운영
 
 2024년 여름 방학 기간 중 대신러닝 기초반은 2024년 7월 5일부터 8월 30일까지 주 3회(월/수/금) 10시부터 14시까지 공식적으로 모임을 가져 홍콩과기대 김성훈 교수님의 '모두를 위한 딥러닝'과 오렐리앙 제롱의 'Hands on Machine Learning with Scikit-Learn, Keras & TensorFlow'를 시청하고 읽으며 다음 사항을 공부하였습니다.
@@ -33,14 +33,14 @@ Member: 김준성, 구세은, 한태호
 https://www.ajou.ac.kr/sw/board/notice.do?mode=view&articleNo=325913
 
 
-
+---
 ### about our project files
 
 저희가 작성한 파일들은 홍콩과기대 김성훈 교수님의 '모두를 위한 딥러닝' 강의 영상 중 실습 동영상과 DeepLearningZeroToAll git repository, 오렐리앙 제롱의 'Hands on Machine Learning with Scikit-Learn, Keras & TensorFlow' 내 코드, handson-ml3 git repository를 참고하여 작성하였습니다.
 
 
 
-
+---
 ### Required packages
 
 저희가 작성한 파일들은 다음 패키지를 요구합니다.
@@ -56,7 +56,7 @@ https://www.ajou.ac.kr/sw/board/notice.do?mode=view&articleNo=325913
 
 
 
-
+---
 ### About directories
 
 디렉토리는 다음과 같이 구성되어 있습니다.
@@ -173,7 +173,7 @@ https://www.ajou.ac.kr/sw/board/notice.do?mode=view&articleNo=325913
 
 
 
-
+---
 ### References
 
 홍콩과기대 김성훈 교수님 - '모두를 위한 딥러닝'
