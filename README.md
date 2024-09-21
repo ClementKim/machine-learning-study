@@ -62,39 +62,51 @@ Member: 김준성, 구세은, 한태호
 │   ├── data-02-stock_daily.csv
 │   ├── data-03-diabetes.csv
 │   ├── data-04-zoo.csv
-│   ├── lab01-1.py
-│   ├── lab01-2.py
-│   ├── lab01-3.py
-│   ├── lab02.py
-│   ├── lab03-1.py
-│   ├── lab03-2.py
-│   ├── lab03-3.py
-│   ├── lab04-1.py
-│   ├── lab04-2.py
-│   ├── lab05-1.py
-│   ├── lab05-2.py
-│   ├── lab06-1.py
-│   ├── lab06-2.py
-│   ├── lab07-1.py
-│   ├── lab07-2.py
-│   ├── lab07-3.py
-│   ├── lab07-4.py
-│   ├── lab09-1.py
-│   ├── lab09-2.py
-│   ├── lab09-3.py
-│   ├── lab09-4.py
-│   ├── lab10-1.py
-│   ├── lab10-2.py
-│   ├── lab10-3.py
-│   ├── lab10-4.py
-│   ├── lab10-5.py
-│   ├── lab11-1.py
-│   ├── lab11-2.py
-│   ├── lab12-1.py
-│   ├── lab12-2.py
-│   ├── lab12-3.py
-│   ├── lab12-4.py
-│   └── lab12-5.py
+│   ├── lab1
+│   │   ├── lab01-1.py
+│   │   ├── lab01-2.py
+│   │   └── lab01-3.py
+│   ├── lab10
+│   │   ├── lab10-1.py
+│   │   ├── lab10-2.py
+│   │   ├── lab10-3.py
+│   │   ├── lab10-4.py
+│   │   └── lab10-5.py
+│   ├── lab11
+│   │   ├── lab11-1.py
+│   │   └── lab11-2.py
+│   ├── lab12
+│   │   ├── lab12-1.py
+│   │   ├── lab12-2.py
+│   │   ├── lab12-3.py
+│   │   ├── lab12-4.py
+│   │   └── lab12-5.py
+│   ├── lab2
+│   │   └── lab02.py
+│   ├── lab3
+│   │   ├── lab03-1.py
+│   │   ├── lab03-2.py
+│   │   └── lab03-3.py
+│   ├── lab4
+│   │   ├── lab04-1.py
+│   │   └── lab04-2.py
+│   ├── lab5
+│   │   ├── lab05-1.py
+│   │   └── lab05-2.py
+│   ├── lab6
+│   │   ├── lab06-1.py
+│   │   └── lab06-2.py
+│   ├── lab7
+│   │   ├── lab07-1.py
+│   │   ├── lab07-2.py
+│   │   ├── lab07-3.py
+│   │   └── lab07-4.py
+│   ├── lab8
+│   └── lab9
+│       ├── lab09-1.py
+│       ├── lab09-2.py
+│       ├── lab09-3.py
+│       └── lab09-4.py
 └── hands-on-machine-learning
     ├── lab1
     │   └── lab1-4-3.py
