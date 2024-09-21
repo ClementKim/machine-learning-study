@@ -31,26 +31,32 @@ Member: 김준성, 구세은, 한태호
 9. 비지도 학습 (K-means와 DBSCAN 중심)
 
 
-# To run files with venv
+# Required packages
 
-```sh
-python3 -m venv environment_name
+저희가 작성한 파일들은 다음 패키지를 요구합니다.
 
-source environment_name/bin/active
+1. pandas
 
-pip install --upgrade pip
+2. scikit-learn
 
-pip install -r requirements.txt
+3. matplotlib
 
-python3 file_name
+4. numpy
 
-deactivate
-```
+5. scipy
 
+6. pillow
+
+7. urllib3
+
+8. TensorFlow
 
 # About directories
 
+디렉토리는 다음과 같이 구성되어 있습니다.
+
 ```bash
+├── README.md
 ├── deep-learning-zero-to-all
 │   ├── data-01-test-score.csv
 │   ├── data-02-stock_daily.csv
@@ -89,71 +95,63 @@ deactivate
 │   ├── lab12-3.py
 │   ├── lab12-4.py
 │   └── lab12-5.py
-├── hands-on-machine-learning
-│   ├── lab
-│   │   ├── lab1
-│   │   │   └── lab1-4-3.py
-│   │   ├── lab3
-│   │   │   ├── lab3-1.py
-│   │   │   ├── lab3-2.py
-│   │   │   ├── lab3-3.py
-│   │   │   ├── lab3-4.py
-│   │   │   ├── lab3-5.py
-│   │   │   ├── lab3-6.py
-│   │   │   └── lab3-7.py
-│   │   ├── lab4
-│   │   │   ├── lab4-1.py
-│   │   │   ├── lab4-2.py
-│   │   │   ├── lab4-3.py
-│   │   │   ├── lab4-4.py
-│   │   │   ├── lab4-5.py
-│   │   │   └── lab4-6.py
-│   │   ├── lab5
-│   │   │   ├── lab5-1.py
-│   │   │   ├── lab5-2.py
-│   │   │   ├── lab5-3.py
-│   │   │   ├── lab5-4.py
-│   │   │   └── lab5-Extra.py
-│   │   ├── lab6
-│   │   │   ├── lab6-1.py
-│   │   │   ├── lab6-2.py
-│   │   │   ├── lab6-3.py
-│   │   │   └── lab6-4.py
-│   │   ├── lab7
-│   │   │   ├── lab7-1.py
-│   │   │   ├── lab7-2.py
-│   │   │   ├── lab7-3.py
-│   │   │   ├── lab7-4.py
-│   │   │   ├── lab7-5.py
-│   │   │   ├── lab7-6.py
-│   │   │   ├── lab7-7.py
-│   │   │   └── lab7-8.py
-│   │   ├── lab8
-│   │   │   ├── lab8-1.py
-│   │   │   ├── lab8-2.py
-│   │   │   ├── lab8-3.py
-│   │   │   ├── lab8-4.py
-│   │   │   └── lab8-5.py
-│   │   └── lab9
-│   │       ├── lab9-1.py
-│   │       ├── lab9-10.py
-│   │       ├── lab9-11.py
-│   │       ├── lab9-12.py
-│   │       ├── lab9-2.py
-│   │       ├── lab9-3.py
-│   │       ├── lab9-4.py
-│   │       ├── lab9-5.py
-│   │       ├── lab9-6.py
-│   │       ├── lab9-7.py
-│   │       ├── lab9-8.py
-│   │       └── lab9-9.py
-│   └── prac
-│       ├── datasets
-│       │   ├── titanic
-│       │   │   ├── test.csv
-│       │   │   └── train.csv
-│       │   └── titanic.tgz
-│       └── prac3-3.py
+└── hands-on-machine-learning
+    ├── lab1
+    │   └── lab1-4-3.py
+    ├── lab3
+    │   ├── lab3-1.py
+    │   ├── lab3-2.py
+    │   ├── lab3-3.py
+    │   ├── lab3-4.py
+    │   ├── lab3-5.py
+    │   ├── lab3-6.py
+    │   └── lab3-7.py
+    ├── lab4
+    │   ├── lab4-1.py
+    │   ├── lab4-2.py
+    │   ├── lab4-3.py
+    │   ├── lab4-4.py
+    │   ├── lab4-5.py
+    │   └── lab4-6.py
+    ├── lab5
+    │   ├── lab5-1.py
+    │   ├── lab5-2.py
+    │   ├── lab5-3.py
+    │   ├── lab5-4.py
+    │   └── lab5-Extra.py
+    ├── lab6
+    │   ├── lab6-1.py
+    │   ├── lab6-2.py
+    │   ├── lab6-3.py
+    │   └── lab6-4.py
+    ├── lab7
+    │   ├── lab7-1.py
+    │   ├── lab7-2.py
+    │   ├── lab7-3.py
+    │   ├── lab7-4.py
+    │   ├── lab7-5.py
+    │   ├── lab7-6.py
+    │   ├── lab7-7.py
+    │   └── lab7-8.py
+    ├── lab8
+    │   ├── lab8-1.py
+    │   ├── lab8-2.py
+    │   ├── lab8-3.py
+    │   ├── lab8-4.py
+    │   └── lab8-5.py
+    └── lab9
+        ├── lab9-1.py
+        ├── lab9-10.py
+        ├── lab9-11.py
+        ├── lab9-12.py
+        ├── lab9-2.py
+        ├── lab9-3.py
+        ├── lab9-4.py
+        ├── lab9-5.py
+        ├── lab9-6.py
+        ├── lab9-7.py
+        ├── lab9-8.py
+        └── lab9-9.py
 ```
 
 
