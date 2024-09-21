@@ -66,21 +66,6 @@ Member: 김준성, 구세은, 한태호
 │   │   ├── lab01-1.py
 │   │   ├── lab01-2.py
 │   │   └── lab01-3.py
-│   ├── lab10
-│   │   ├── lab10-1.py
-│   │   ├── lab10-2.py
-│   │   ├── lab10-3.py
-│   │   ├── lab10-4.py
-│   │   └── lab10-5.py
-│   ├── lab11
-│   │   ├── lab11-1.py
-│   │   └── lab11-2.py
-│   ├── lab12
-│   │   ├── lab12-1.py
-│   │   ├── lab12-2.py
-│   │   ├── lab12-3.py
-│   │   ├── lab12-4.py
-│   │   └── lab12-5.py
 │   ├── lab2
 │   │   └── lab02.py
 │   ├── lab3
@@ -101,12 +86,26 @@ Member: 김준성, 구세은, 한태호
 │   │   ├── lab07-2.py
 │   │   ├── lab07-3.py
 │   │   └── lab07-4.py
-│   ├── lab8
-│   └── lab9
-│       ├── lab09-1.py
-│       ├── lab09-2.py
-│       ├── lab09-3.py
-│       └── lab09-4.py
+│   ├── lab9
+│   │   ├── lab09-1.py
+│   │   ├── lab09-2.py
+│   │   ├── lab09-3.py
+│   │   └── lab09-4.py
+│   ├── lab10
+│   │   ├── lab10-1.py
+│   │   ├── lab10-2.py
+│   │   ├── lab10-3.py
+│   │   ├── lab10-4.py
+│   │   └── lab10-5.py
+│   ├── lab11
+│   │   ├── lab11-1.py
+│   │   └── lab11-2.py
+│   └── lab12
+│       ├── lab12-1.py
+│       ├── lab12-2.py
+│       ├── lab12-3.py
+│       ├── lab12-4.py
+│       └── lab12-5.py
 └── hands-on-machine-learning
     ├── lab1
     │   └── lab1-4-3.py
@@ -153,9 +152,6 @@ Member: 김준성, 구세은, 한태호
     │   └── lab8-5.py
     └── lab9
         ├── lab9-1.py
-        ├── lab9-10.py
-        ├── lab9-11.py
-        ├── lab9-12.py
         ├── lab9-2.py
         ├── lab9-3.py
         ├── lab9-4.py
@@ -163,7 +159,10 @@ Member: 김준성, 구세은, 한태호
         ├── lab9-6.py
         ├── lab9-7.py
         ├── lab9-8.py
-        └── lab9-9.py
+        ├── lab9-9.py
+        ├── lab9-10.py
+        ├── lab9-11.py
+        └── lab9-12.py
 ```
 
 
