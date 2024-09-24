@@ -32,6 +32,9 @@ plt.show()
 # 선형 회귀 모델을 선택합니다.
 model = LinearRegression()
 
+# k-최근접 이웃 회귀 사용
+#model = KNeighborsRegressor(n_neighbors = 3)
+
 # 모델을 훈련합니다.
 model.fit(x, y)
 
